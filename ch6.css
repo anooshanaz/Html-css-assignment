@@ -1,0 +1,13 @@
+
+#Ptable{
+    border-collapse: collapse;
+    width: 100%;
+}
+#Ptable td{
+    border: 1 px solid black;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

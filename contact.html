@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        .navbar{
+            background-color: lightskyblue;
+            width: 80%;
+            border-radius: 10px;
+            margin-left: 100px;
+            padding: 0px;
+        }
+        .navbar h2{
+            font-size: 25px;
+            float: left;
+        }
+        .navbar nav{
+            padding: 1em;
+            text-align: center;
+        }
+        .navbar nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:center;
+        }
+        .navbar nav li{
+            margin-right: 20px;
+            font-size: large;
+            font-style: bold;
+        }
+        .navbar nav a{
+            color: black;
+            text-decoration: none;
+        }
+        .main {
+            width:80% ;
+            margin-right: 500px;
+        }
+        .main1 fieldset{
+            width: 67%;
+            margin-left: 220px;
+        }
+        .button{
+            margin-left: 800px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2 style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">pana</h2>
+        <h2 style="color:black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">cloud</h2>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\DELL\Desktop\html,css assignment\ch8.html">Home</a></li>
+                <li><a href="C:\Users\DELL\Desktop\html,css assignment\about.html">About</a></li>
+                <li><a href="C:\Users\DELL\Desktop\html,css assignment\portfolio.html">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+    <fieldset>
+        <legend>Your Details</legend>
+        <label for="name">Name:</label><br>
+        <label for="email">Email:</label>
+    </fieldset>
+    </div>
+    <br>
+    <div class="main1">
+    <fieldset>
+        <legend>Your Review</legend>
+        <p>You did your hear about us?</p>
+        <select name="" id="">
+            <option value="">Google</option>
+            <option value="">Facebook</option>
+            <option value="">Instagram</option>
+        </select>
+        <p>Would you visit again?</p>
+        <input type="radio">Yes <input type="radio">No <input type="radio">Maybe
+        <br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="text" id="text"></textarea>
+        <br>
+        <input type="checkbox"><label>Sign me up for email updates</label>
+        <br>
+        <button>Submit Review</button>
+    </fieldset>
+    </div>
+    <div class="button">
+    <button>More Pages</button>
+    </div>
+</body>
+</html>
